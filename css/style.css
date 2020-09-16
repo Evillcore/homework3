@@ -1,0 +1,179 @@
+/*Обнуление*/
+*{
+padding:0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,
+:active{outline: none;
+}
+a:focus,a:active{outline: none;
+}
+nav,footer,header,aside{display: block;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;
+}
+input::-ms-clear{display: none;
+}
+button{cursor: pointer;
+}
+button::-moz-focus-inner {padding: 0;border: 0;
+}
+a, a:visited{text-decoration: none;
+}
+a:hover{text-decoration: none;
+}
+ul li{list-style: none;
+}
+img{vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;
+}
+/*--------------------*/
+
+body {
+	/* background-color: #000;
+	color: red; */
+	font-size: 15px;
+	
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+
+
+.header__link {
+	color: red;
+	text-transform: uppercase;
+}
+
+.header__title .header__logo2 {
+	font-size: 25px;
+}
+
+
+.header__text, .header__list {
+	color: red;
+}
+
+.header__text a {
+	color: #000;
+}
+
+.header__text p {
+	color: #000;
+	font-size: 20px;
+}
+
+.header__subtitle {
+	font-size: 20px;
+}
+
+
+
+.about__title .about__title--h {
+	font-size: 40px;
+}
+
+
+
+.about__intro h2 {
+	font-size: 25px;
+}
+
+.about__intro > p {
+	color: red;
+}
+
+.about__disc {
+	font-size: 30px;
+	
+}
+
+.about__disc .about__span {
+	font-size: 50px;
+
+}
+
+
+
+
+
+
+.about__list {
+	font-size: 20px;
+}
+
+
+
+.about__item--red {
+	font-size: 20px;
+	color: red;
+}
+
+.about__item--green {
+	font-size: 20px;
+	color: green;
+}
+
+.about__item--blue {
+	font-size: 20px;
+	color: blue;
+}
+
+.about__item--orange {
+	font-size: 20px;
+	color: orange;
+}
+
+.about__item--lime {
+	font-size: 20px;
+	color: lime;
+}
+
+.about__item--brown{
+	font-size: 20px;
+	color: brown;
+}
+
+.about__item--purple {
+	font-size: 20px;	
+	color: purple;
+}
+
+.about__item--khaki{
+	font-size: 20px;
+	color: khaki;
+}
+
+.footer {
+
+}
+
+.footer__info h2  {
+	font-size: 40px;
+	color: #000;
+
+}
+
+.footer__info p {
+	color: red;
+	font-size: 25px;
+}
